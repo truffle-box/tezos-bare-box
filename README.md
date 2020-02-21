@@ -1,10 +1,9 @@
-Tezos Example Box
+Tezos Bare Box
 =================
 
 **Note: Experimental. Currently designed for demo purposes only.**
 
-This box contains a `Counter` and `SimpleStorage` contract to display the basics of Tezos
-integration with Truffle.
+This box contains the default project structure for a Tezos project, used in the Tezos version of Truffle (see installation instructions below).
 
 
 ## Prerequisites
