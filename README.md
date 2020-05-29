@@ -23,7 +23,7 @@ This box contains the default project structure for a Tezos project, used in the
 
 2. Download the box. This also takes care of installing the necessary dependencies.
   ```shell
-  truffle unbox tezos-example
+  truffle init
   ```
 
 
