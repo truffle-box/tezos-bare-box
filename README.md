@@ -35,7 +35,7 @@ This box contains the default project structure for a Tezos project, used in the
   truffle compile
   ```
 
-- Starting the local sandbox Tezos node
+- Starting the local `ganache-cli` sandbox Tezos node
   ```shell
   npm run start-sandbox
   ```
@@ -53,24 +53,14 @@ This box contains the default project structure for a Tezos project, used in the
 
 ## Sandbox Management
 
-An archive mode sandbox Tezos node is provided in this box with RPC exposed at port `8732` and two accounts generously funded.
+An archive mode `ganache-cli` sandbox Tezos node is provided in this box with RPC exposed at port `8732` and ten accounts generously funded with 100 XTZ. For currently supported configurable options, see the `ganache-cli` [documentation](https://github.com/trufflesuite/ganache-cli/tree/tezos#options).
 
 
 #### Commands
 
 ```shell
 npm run start-sandbox
-npm run kill-sandbox
-npm run restart-sandbox
 ```
-
-
-#### Available Accounts
-
-|alias  |pkh  |pk  |sk   |
-|---|---|---|---|
-|alice   |tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb   |edpkvGfYw3LyB1UcCahKQk4rF2tvbMUk8GFiTuMjL75uGXrpvKXhjn   |edsk3QoqBuvdamxouPhin7swCvkQNgq4jP5KZPbwWNnwdZpSpJiEbq   |
-|bob   |tz1aSkwEot3L2kmUvcoxzjMomb9mvBNuzFK6   |edpkurPsQ8eUApnLUJ9ZPDvu98E8VNj4KtJa1aZr16Cr5ow5VHKnz4   |edsk3RFfvaFaxbHx8BMtEW1rKQcPtDML3LXjNqMNLCzC3wLC1bWbAt   |
 
 
 ## Interacting with Live Networks
